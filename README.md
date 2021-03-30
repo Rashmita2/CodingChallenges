@@ -1,2 +1,2 @@
 # CodingChallenges
-Questions from leetcode and hackerank
+Coding challenges from Leetcode and Hackerank
