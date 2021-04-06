@@ -8,6 +8,10 @@ public class Palindrome {
         //Creates the string builder with no characters with the capacity of 16 charcaters
         StringBuilder result = new StringBuilder();
         
+        /* Can you .reverse instead of reversing using a for loop 
+        result.append(newText);
+        result.reverse(); */
+        
         for(int i = newText.length() - 1; i>=0; i--){
             result.append(newText.charAt(i));
         }
