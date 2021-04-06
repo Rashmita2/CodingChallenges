@@ -5,6 +5,7 @@ public class Palindrome {
 
     public static boolean checkPalindrome(String text){
         String newText = text.toLowerCase();
+        //Creates the string builder with no characters with the capacity of 16 charcaters
         StringBuilder result = new StringBuilder();
         
         for(int i = newText.length() - 1; i>=0; i--){
