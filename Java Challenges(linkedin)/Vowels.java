@@ -32,3 +32,24 @@ public class Vowels{
     }
 
 }
+
+//Another method
+public class Consonents {
+    public static void main(String[] args){
+        String text = "Hello World";
+        int vCount = 0;
+        int cCount = 0;
+        String finaltext = (text.toLowerCase()).trim();
+        for(int i=0; i<finaltext.length(); i++){
+            if(finaltext.charAt(i) == 'a' || finaltext.charAt(i)== 'e' || finaltext.charAt(i)== 'i' || finaltext.charAt(i)== 'o' || finaltext.charAt(i)== 'u'){
+                vCount++;
+            }
+            else{
+                cCount++;
+            }
+        
+    }
+        System.out.println("Vowels: "+ vCount);
+        System.out.println("Consonents: " + cCount);
+}
+}
