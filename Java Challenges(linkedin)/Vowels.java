@@ -15,7 +15,7 @@ public class Vowels{
         char[] inputArray = inputWords.toCharArray();
 
         for (char c : inputArray) {
-            //Checking the index of the array
+            //Checking if hte character is in the index of the array
             if (vowels.indexOf(c) != -1) {
                 v_count++;
             } else if (c != ' ') {
