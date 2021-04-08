@@ -1,5 +1,5 @@
 import java.util.*;
-//Converting the Numbers to Binary format
+//Converting the Numbers to Binary Format(0 and 1)
 public class Binary {
     
     public static void printBinary(int n){
