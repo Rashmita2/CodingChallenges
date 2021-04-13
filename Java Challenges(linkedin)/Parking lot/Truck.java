@@ -1,5 +1,5 @@
 public class Truck implements Vehicle {
-
+//inheritance
     VehicleType type;
 
     public Truck(VehicleType type) {
