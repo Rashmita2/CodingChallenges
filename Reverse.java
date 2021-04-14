@@ -1,4 +1,5 @@
 class Reverse {
+    //Reversing the integer
     public int reverse(int x) {
        //123 ==> 321
         int pop;
