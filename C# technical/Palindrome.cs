@@ -1,3 +1,4 @@
+//Check if the string is palindrome
 using System;
 					
 public class Program
